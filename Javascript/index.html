@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    
+</head>
+<body>
+    <h1 id="task-title">Hello1 Javascript</h1>
+    <button id="b1"> button 1</button>
+    <button id="b2"> button 2</button>
+    <div id="d">this is div</div>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        $(function(){
+            $("#b1").click(function(){
+                 $("#d").hide();
+   });
+            $("#b2").click(function(){
+                 $("#d").show();
+   });
+});
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@relation beach
+
+@attribute Text string
+@attribute class-att {SAP,EMAIL}
+
+@data
+
+"SAP - JPL (frozen / fall-down)",?
+"How to create a ticket for new permissions on SAP",?
+"please see the screenshots attached and let us know how to change the Outlook settings on user's side so He can view the calendar of the group DIS Catering Duisburg as his colleagues. ",?
+"Outlook is running extremely slow.",?
