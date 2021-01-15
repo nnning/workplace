@@ -1,0 +1,14 @@
+@relation training
+
+@attribute Text string
+@attribute class-att {HR,FICO,LOG}
+
+@data
+"Employee not reflecting on Kaba System (Paulo Figueira) Hi SD,The employee Paulo Figueira is not reflecting on the kaba system. HR has loaded him on SAP with sap number 482791. but when i search this in Kaba I do not see him their.Can you please advise?",HR
+"Issue with SAP - Employee number We are trying to add our new colleague to partner functions for some specific customers that she will have contact with. So her name is shown in offers for example.Transaction: VD02 --> Sales Area Data --> Partner functions.Her name is Lise-Lotte Gersson, employee number: 1274 and started at Heléns 13/8-2018.But I can't find her when I searching in SAP, neither when I seach after name or employee-number. I assume that this problem applies to all new employees at Heléns...(As an example; I can find myself: Emanuel Johansson, emplyee number: 1169.) But it seems like new employees not being transferred..I talked to Sebastian Paul and he told me to involve CIT HR, I guess that's the right way to do?",HR
+
+"SRM- EBP issue User is getting error by Order, user need to fill it again, it was not saved, see screenshots.l5cg8053rp1",LOG
+"INC0011351 the problem persists, user still cannot edit the order in the shopping cart, please see the new Screenshot from user.",LOG
+
+"The withholding tax information is missing in the corresponding accounting documentActually we are using the BAPI BAPI_INCOMINGINVOICE_CREATE  for our incoming invoice vendor solutions ( WEB site ), on this site the vendors are upload the invoice ( XML/PDF Files ) and then after authorization process the invoice is posted into SAP system, into XML data we have all information on the Subtotal + Taxes and withholding tax information, the data is filled into BAPI and posted, when we are checking the document into  MIR4 the withholding tax information is ok ( Withholding tax code ,  tax base amount )  but when I check the FI document the withholding tax information is missing .I have an example into QAM system,  Invoice 5105602804 / 2018",FICO
+"SAP PAP. No entry in modification check found User reported an issue in SAP PAP during consignment and pipeline settlement. Message: No entry in modification check found! appears. User can`t continue with the next step. Screenshot attached.",FICO
